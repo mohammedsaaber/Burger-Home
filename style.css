@@ -183,6 +183,11 @@ header
         margin: 1rem 0;
         text-align: center;
     }
+    .nav-bar ul
+    {
+        position: relative;
+        left: 1.7rem;
+    }
 }
 
 /***************************************************************************/
@@ -286,10 +291,30 @@ header
         font-size: 5rem;
     }
 
+    
+
+    
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .head-left h1 
+    {
+        font-size: 4rem;
+    }
+
+    .head-left p
+    {
+        width: 19rem;
+    }
+
     .head-left p
     {
         width: 90%;
     }
+    
+
 }
 
 /**************************************************************************/
@@ -605,6 +630,25 @@ header
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px)
+{
+    .main-container-4 input 
+    {
+        width: 18rem;
+    }
+
+    .main-container-3 p 
+    {
+        font-size: 0.6rem;
+    }
+
+    .main-container-2 .p2
+    {
+        width: 19rem;
+        font-size: 0.6rem;
+    }
+}
+
 footer
 {
     margin: 8rem auto;
@@ -668,5 +712,25 @@ footer
     .myicon
     {
         margin-top: 2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .myicon
+    {
+        font-size: 0.8rem;
+    }
+    .icons
+    {
+        font-size: 0.6rem;
+    }
+
+    .footer-container p
+    {
+        font-size: 0.5rem;
     }
 }
